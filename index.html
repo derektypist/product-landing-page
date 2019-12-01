@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Product Landing Page</title>
     <!-- Load Style Sheets -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <style>
@@ -18,9 +18,11 @@
         }
 
         #header-img {
-            height: 35px;
-            width: 50px;
-            display: block;
+            color: blue;
+        }
+
+        #nav-bar {
+            background-color: lightgreen;
         }
     </style>
 </head>
@@ -29,15 +31,14 @@
     <!-- Set Up Header -->
     <header id="header">
         <!-- Set Up Navigation -->
-        <nav class="navbar navbar-light bg-light fixed-top" id="nav-bar">
-            <a class="navbar-brand" href="index.html">
-    <img src="derek.JPG" id="header-img" title="Derek Dhammaloka" alt="Derek Dhammaloka">
-  </a>
+        <nav class="navbar navbar-expand navbar-light bg-light fixed-top" id="nav-bar">
+            <a class="navbar-brand mb-0 h1" href="index.html" id="header-img">Derek Dhammaloka</a>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Events</a>
                     </li>
@@ -48,7 +49,6 @@
                         <a class="nav-link" href="#">Descriptions</a>
                     </li>
                 </ul>
-            </div>
         </nav>
     </header>
 </body>
