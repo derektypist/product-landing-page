@@ -39,9 +39,16 @@
         input {
             width: 60%;
         }
-        
+
         input[type=submit] {
             width: 20%;
+        }
+
+        /* Events */
+
+        #events {
+            font-family: "Roboto", Arial, Verdana, sans-serif;
+            margin-left: 50px;
         }
     </style>
 </head>
@@ -81,7 +88,21 @@
             <!-- Set Up Submit Button -->
             <input type="submit" id="submit" value="Get Started" onclick="https://www.freecodecamp.com/email-submit">
         </form>
-        <section id="events"></section>
+
+        <!-- Provide Section for Events -->
+        <section id="events">
+            <!-- Provide Article for Black Tie Events -->
+            <article>
+                <p></p>
+                <h3>Black Tie Events <i class="fa fa-music" aria-hidden="true"></i></h3>
+                <!-- Provide List Items -->
+                <ul>
+                    <li>Easter Ball at Marriott Hotel, Northampton (2019)</li>
+                    <li>Valentines Ball at Marriott Hotel, Leicester (2019)</li>
+                </ul>
+            </article>
+        </section>
+
         <section id="demo"></section>
         <section id="descriptions"></section>
     </main>
