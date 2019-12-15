@@ -11,14 +11,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <style>
-    
         /* Main Body */
-        
+
         #mainbody {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             padding-top: 150px;
         }
-        
+
         /* Header and Navigation */
 
         #header {
@@ -63,7 +62,7 @@
         /* Horizontal Rule */
 
         hr {
-            border: 1px solid black;
+            border-color: black;
             margin: 50px;
         }
 
@@ -86,13 +85,28 @@
             display: block;
             margin: auto;
         }
-        
+
         /* Descriptions */
-        
+
         #descriptions {
             margin-left: 50px;
+            margin-right: 50px;
         }
         
+        .suit {
+            background-color: lightblue;
+            border: 1px solid black;
+        }
+        
+        .tie {
+            background-color: lightgreen;
+            border: 1px solid black;
+        }
+        
+        .dinnersuit {
+            background-color: pink;
+            border: 1px solid black;
+        }
     </style>
 </head>
 
@@ -196,44 +210,50 @@
             <!-- Provide link to return to top -->
             <a href="#top" title="Return to Top">Return to Top</a>
         </section>
-        
+
         <!-- Provide Horizontal Rule -->
         <hr>
 
         <!-- Provide Section for Descriptions -->
         <section id="descriptions">
             <article class="row">
-                <article class="col-sm-4">
-                <h3>Suit</h3>
-                <ul>
-                    <li>Ideal for Work</li>
-                    <li>Ideal for Events requiring smart dress</li>
-                    <li>Available in Charcoal and Navy</li>
-                    <li>From Marks and Spencer</li>
-                    <li>Machine Washable</li>
-                </ul>
+                <article class="suit col-sm-4">
+                    <!-- Provide Article for Suit -->
+                    <h3>Suit</h3>
+                    <ul>
+                        <li>Ideal for Work</li>
+                        <li>Ideal for Events requiring smart dress</li>
+                        <li>Available in Charcoal and Navy</li>
+                        <li>From Marks and Spencer</li>
+                        <li>Machine Washable</li>
+                    </ul>
+                </article>
+                <article class="tie col-sm-4">
+                    <!-- Provide Article for Tie -->
+                    <h3>Tie</h3>
+                    <ul>
+                        <li>Ideal for Work</li>
+                        <li>Ideal for Events requiring smart dress</li>
+                        <li>Available in Bottle Green</li>
+                        <li>From Marks and Spencer</li>
+                        <li>Machine Washable</li>
+                    </ul>
+                </article>
+                <article class="dinnersuit col-sm-4">
+                    <!-- Provide Article for Dinner Suit -->
+                    <h3>Dinner Suit</h3>
+                    <ul>
+                        <li>Ideal for Black Tie Events</li>
+                        <li>Available in Black</li>
+                        <li>From Marks and Spencer</li>
+                        <li>Machine Washable</li>
+                    </ul>
+                </article>
             </article>
-            <article class="col-sm-4">
-                <h3>Tie</h3>
-                <ul>
-                    <li>Ideal for Work</li>
-                    <li>Ideal for Events requiring smart dress</li>
-                    <li>Available in Bottle Green</li>
-                    <li>From Marks and Spencer</li>
-                    <li>Machine Washable</li>
-                </ul>
-            </article>
-            <article class="col-sm-4">
-                <h3>Dinner Suit</h3>
-                <ul>
-                    <li>Ideal for Black Tie Events</li>
-                    <li>Available in Black</li>
-                    <li>From Marks and Spencer</li>
-                    <li>Machine Washable</li>
-                </ul>
-            </article>
-            </article>
-            
+
+        <p></p>
+            <!-- Provide link to return to top -->
+            <a href="#top" title="Return to Top">Return to Top</a>
         </section>
     </main>
 </body>
