@@ -13,7 +13,7 @@
  The demo section is a video of me wearing a charcoal suit with bottle green tie.  This was before I set off to
  go racing at Wolverhampton on 20 October 2018.
  
- The descriptions section provides a description of my suits, ties and dinner suits.
+ The descriptions section provides a description of my suits, ties and dinner suits.  They have a different background colour.
  
  ### User Stories
  
@@ -52,8 +52,38 @@
  
  ## Technologies
  
- This project uses HTML5 to include the <iframe> tag to use YouTube videos.  Internal CSS3 is provided.
+ This project uses HTML5 to include the iframe tag to use YouTube videos.  Internal CSS3 is provided.
  Bootstrap 4.4.1 is used to facilitate Font Awesome.  Other technologies include fonts.google.com to faciliate
  the use of Font Roboto.  Fallbacks (e.g. Arial, Verdana) are provided.
  
+ ## Testing
  
+ Go to https://codepen.io/freeCodeCamp/pen/MJjpwO, select the test suite of Product Landing Page and select Run Tests.
+ Make sure all the tests have passed.  If some have failed, go back and edit the code until all tests have passed.
+ 
+ Resize the width of the browser window to see the iframe element responsively resize.  It uses the max-width
+ attribute.  Manually check the links to ensure that they are pointing in the correct direction.
+ 
+ ## Deployment
+ 
+ The project is deployed on GitHub pages at https://derektypist.github.io/product-landing-page at the master branch.
+ 
+ Remote setup use the command
+ 
+      git remote add origin https://github.com/derektypist/product-landing-page
+  
+ Any changes use git push in the terminal window.
+ 
+ ## Credits
+ 
+ ### Content
+ 
+ The contents in this project were written by me.
+ 
+ ### Media
+ 
+ The YouTube Video was taken on 20 October 2018.
+ 
+ ### Acknowledgements
+ 
+ Went to www.w3schools.com for ideas with the project.
