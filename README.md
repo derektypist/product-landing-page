@@ -5,6 +5,16 @@
  
  ## UX
  
+ This project is the product landing page of suits, ties and dinner suits.  The information is structured into
+ events, demo and descriptions.  The organising principle is interests.
+ 
+ The events section provides details of events where I wore my suits, ties and dinner suits.
+ 
+ The demo section is a video of me wearing a charcoal suit with bottle green tie.  This was before I set off to
+ go racing at Wolverhampton on 20 October 2018.
+ 
+ The descriptions section provides a description of my suits, ties and dinner suits.
+ 
  ### User Stories
  
  My product landing page should have a header element with id=header.
@@ -33,3 +43,5 @@
  My product landing page should have at least 1 media query.
  
  My product landing page should utilise CSS Flexbox at least once.
+ 
+ [Wireframes](wireframes/product-landing-page.png) are provided.
