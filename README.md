@@ -45,3 +45,15 @@
  My product landing page should utilise CSS Flexbox at least once.
  
  [Wireframes](wireframes/product-landing-page.png) are provided.
+ 
+ ## Features
+ 
+ The navbar is fixed at the top.  There is a video of me wearing a charcoal suit with a bottle green tie.
+ 
+ ## Technologies
+ 
+ This project uses HTML5 to include the <iframe> tag to use YouTube videos.  Internal CSS3 is provided.
+ Bootstrap 4.4.1 is used to facilitate Font Awesome.  Other technologies include fonts.google.com to faciliate
+ the use of Font Roboto.  Fallbacks (e.g. Arial, Verdana) are provided.
+ 
+ 
